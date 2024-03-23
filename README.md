@@ -71,6 +71,22 @@ img2dataset \
     --wandb_project "gill-cc3m"
 ```
 
+## Process
+
+```sh
+cp scripts/untar.sh output/training_01/
+cd output/training_01
+./untar.sh
+
+cp scripts/untar.sh output/validation_01/
+cd output/validation_01
+./untar.sh
+
+mkdir -p processed
+
+python3 scripts/gen_train_val_tsv.py
+```
+
 ## References
 
 - https://github.com/kohjingyu/gill

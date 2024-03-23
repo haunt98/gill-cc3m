@@ -15,7 +15,8 @@ venv
 .venv
 
 # Custom
-raw/*
-header/*
-output/*
-wandb/*
+wandb
+raw
+header
+output
+processed

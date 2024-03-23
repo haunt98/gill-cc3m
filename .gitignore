@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Window
+*.exe
+
+# IntelliJ
+.idea
+
+# VSCode
+.vscode
+
+# Python
+venv
+.venv
+
+# Custom
+raw/*
+header/*
+output/*
+wandb/*
